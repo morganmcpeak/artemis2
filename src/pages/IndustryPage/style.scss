@@ -1,3 +1,87 @@
 .industry-page {
+    margin: 0 10%;
     min-height: 100vh;
+    padding-top: 140px;
+    padding-bottom: 60px;
+
+
+    #links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .pagelink {
+        font-family: "roboto condensed", sans-serif;
+        text-decoration: none;
+        margin: 0px;
+        border-right: 2px solid gray;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .pagelink2 {
+        font-family: "roboto condensed", sans-serif;
+        text-decoration: none;
+        margin: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .industrypic {
+        width: 600px;
+        height: auto;
+    }
+    p{
+        font-family: "questrial", sans-serif;
+        font-weight: lighter;
+    }
+    .top {
+        font-family: "roboto condensed", sans-serif;
+        text-transform: uppercase;
+        font-size: 18px;
+        
+    }
+    .industry {
+        margin-top: 20px;
+        border-top: 1px solid rgb(72,24,108);
+    }
+    h1 {
+        font-family: "Roboto Condensed", sans-serif;
+        color: rgb(72,24,108);
+    }
+    .title {
+            font-family: "Roboto Condensed", sans-serif;
+            color: rgb(72,24,108);
+            text-transform: uppercase;
+            font-size: 45px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid rgb(72,24,108);
+    }
+    @import url('https://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed');
+
 }
+
+@media screen and (max-width: 450px) {
+    .industry-page {
+        padding-top: 180px;
+
+        .industrypic {
+            width: 300px;
+            
+        }
+        .industry{
+            text-align: center;
+        }
+        #links {
+            flex-direction: column;
+        }
+        .pagelink{
+            border: none;
+        }
+        .title {
+            font-size: 30px;
+        }
+    }
+}
+

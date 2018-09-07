@@ -1,2 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed");
 .career-page {
-  min-height: 100vh; }
+  margin: 0 10%;
+  min-height: 100vh;
+  padding-top: 140px;
+  padding-bottom: 60px;
+  font-family: "questrial", sans-serif;
+  font-weight: lighter; }
+  .career-page h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #48186c;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #48186c; }
+  .career-page .joblink1 {
+    text-decoration: none;
+    font-family: "questrial", sans-serif;
+    margin: 5px;
+    font-size: 18px;
+    border-right: 2px solid gray;
+    padding-right: 10px; }
+  .career-page .joblink {
+    text-decoration: none;
+    font-family: "questrial", sans-serif;
+    margin: 5px;
+    font-size: 18px;
+    color: #48186c; }
+  .career-page .careerlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .career-page .translate {
+    font-family: "questrial", sans-serif;
+    font-style: italic;
+    font-weight: lighter; }
+  .career-page h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    margin-bottom: -5px;
+    color: #48186c;
+    text-align: left;
+    border-bottom: 1px solid #48186c;
+    padding-bottom: 10px;
+    font-weight: lighter;
+    text-transform: uppercase; }
+  .career-page .check {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    margin-bottom: -5px;
+    color: #48186c;
+    text-align: center;
+    text-transform: uppercase; }
+  .career-page p {
+    font-family: "Questrial", sans-serif;
+    font-weight: lighter;
+    text-align: left; }
+
+@media screen and (max-width: 450px) {
+  .career-page {
+    padding-top: 180px; }
+    .career-page h1 {
+      font-size: 30px; }
+    .career-page h3 {
+      font-size: 20px; } }

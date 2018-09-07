@@ -1,3 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed");
 .index-page {
   height: 100vh;
-  padding-top: 120px; }
+  padding-top: 128px; }
+  .index-page body {
+    height: inherit;
+    background-size: cover;
+    margin-left: 5px;
+    width: 100%; }
+  .index-page .welcome {
+    color: #ddce78;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 130px; }
+  .index-page h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #48186c;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-size: 70px; }
+  .index-page p {
+    font-family: "questrial", sans-serif;
+    color: #48186c;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-top: -47px;
+    padding-right: 10px;
+    font-size: 20px; }
+  .index-page .homelogo {
+    display: none; }
+
+@media screen and (max-width: 450px) {
+  .index-page {
+    padding-top: 200px; }
+    .index-page body {
+      margin-left: 0px;
+      width: 110%;
+      background-size: 400px;
+      background-repeat: no-repeat; }
+    .index-page .welcome {
+      padding-top: 260px;
+      color: #48186c;
+      width: 320px; }
+    .index-page h1 {
+      font-size: 35px; }
+    .index-page p {
+      font-size: 15px;
+      margin-top: -20px; }
+    .index-page .homelogo {
+      display: block;
+      width: 185px;
+      height: auto;
+      margin: 0 auto;
+      margin-top: -65px; } }

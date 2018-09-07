@@ -1,0 +1,37 @@
+.insource-page {
+    margin: 0 10%;
+    min-height: 150vh;
+    padding-top: 140px;
+    padding-bottom: 60px;
+    h1 {
+        font-family: "Roboto Condensed", sans-serif;
+        color: rgb(72,24,108);
+        text-transform: uppercase;
+
+    }
+    p {
+        font-family: "Questrial", sans-serif;
+    }
+    h3 {
+        font-family: "Roboto Condensed", sans-serif;
+        color: rgb(72,24,108);
+        font-style: italic;
+        font-size: 20px;
+    }
+    h4 {
+        font-family: "Roboto Condensed", sans-serif;
+        color: rgb(72,24,108);
+        font-size: 28px;
+        margin-bottom: 0px;
+    }
+    li {
+        list-style-type: none;
+        font-family: "questrial", sans-serif;
+        margin-top: 10px;
+    }
+    @import url('https://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed');
+
+    @media screen and (max-width: 450px) {
+        min-height: 250vh;
+    }
+}

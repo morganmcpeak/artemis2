@@ -1,3 +1,81 @@
 .recruit-page {
+    margin: 0 10%;
     min-height: 100vh;
+    padding-top: 140px;
+    padding-bottom: 60px;
+    font-weight: lighter;
+
+    li {
+        list-style-type: none;
+        text-align: left;
+        font-family: "questrial", sans-serif;  
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-family: "Roboto Condensed", sans-serif;
+        color: rgb(72,24,108);
+        text-transform: uppercase;
+        font-size: 45px;
+        margin-bottom: -20px;
+        
+        
+}
+    h5 {
+        font-family: "Roboto Condensed", sans-serif;
+        color: rgb(72,24,108);
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-align: left;
+        border-bottom: 1px solid rgb(72,24,108);
+        padding-bottom: 5px;
+        text-transform: uppercase;
+    }
+    .bullet {
+        margin-right: 10px;
+    }
+    .paragraph {
+        font-family: "questrial", sans-serif;
+        margin-top: 20px;
+        font-size: 19px;
+        font-weight: lighter;
+    }
+    .mainpic {
+        width: 100%;
+        height: auto;
+    }
+    .joblink1 {
+        font-family: "questrial", sans-serif;
+        margin-right: 5px;
+        margin-left: 5px;
+        color: rgb(72,24,108);
+        font-size: 18px;
+        border-right: 2px solid gray;
+        padding-right: 15px;
+    }
+    .joblink {
+        font-family: "questrial", sans-serif;
+        margin-right: 10px;
+        margin-left: 10px;
+        color: rgb(72,24,108);
+        font-size: 18px;
+    }
+    @import url('https://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed');
+
+}
+@media screen and (max-width: 450px) {
+    .recruit-page {
+        padding-top: 180px;
+
+        .bullet {
+            margin-left: 0px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        h5 {
+            font-size: 20px;
+        }
+    }
 }

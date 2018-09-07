@@ -48,12 +48,10 @@ class Nav extends Component {
                 this.nav = elem;
               }}
             >
-               <div className="logo-container">
-               <img src="assets/logo.png" class="navlogo" onClick={(e) => this.scrollToPage('.index-page')}/>
-               <div class="wavebox">
-               <img src="assets/wave.png" class="wave"/>
-               </div>
-               </div>
+            <div className="logobox">
+            <img src="assets/images/artemislogo.png" className="logo2" onClick={(e) =>this.scrollToPage('.index-page')}></img>
+            <img src="assets/logo.png" className="logo" onClick={(e) =>this.scrollToPage('.index-page')}></img>
+            </div>
                 <div className="menu">
                 <div
                     className="home active"
@@ -61,31 +59,29 @@ class Nav extends Component {
                     >
                     Home
                     </div>
+
                     <div
                     className="about active"
                     onClick={(e) => this.scrollToPage('.about-page')}
                     >
                     About
                     </div>
-                    <div
-                    className="contact"
-                    onClick={(e) => this.scrollToPage('.contact-page')}
-                    >
-                    Contact
-                    </div>
+                    
                     <div
                     className="industry"
                     onClick={(e) => this.scrollToPage('.industry-page')}
                     >
                     Industry Experience
                     </div>
-                </div>
-                <div
+
+                    <div
                     className="recruit"
                     onClick={(e) => this.scrollToPage('.recruit-page')}
                     >
                     Recruitment Solutions
                     </div>
+
+                    
                     <div
                     className="careers"
                     onClick={(e) => this.scrollToPage('.career-page')}
@@ -93,7 +89,14 @@ class Nav extends Component {
                     Careers
                     </div>
 
-            
+                    <div
+                    className="contact"
+                    onClick={(e) => this.scrollToPage('.contact-page')}
+                    >
+                    Contact
+                    </div>
+
+                </div>
                 <div className="menu-border"></div>
             </nav>
           );

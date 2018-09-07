@@ -6,6 +6,9 @@ import CareerPage from './pages/CareerPage';
 import ContactPage from './pages/ContactPage';
 import IndustryPage from './pages/IndustryPage';
 import RecruitPage from './pages/RecruitPage';
+import HireVetPage from './pages/HireVetPage';
+import InsourcePage from './pages/InsourcePage';
+import Footer from './components/Footer';
 class App extends Component {
   render() {
     return (
@@ -13,10 +16,14 @@ class App extends Component {
 
       <IndexPage />
       <AboutPage />
-      <CareerPage />
-      <ContactPage />
       <IndustryPage />
       <RecruitPage />
+      <CareerPage />
+      <ContactPage />
+      <HireVetPage />
+      <InsourcePage />
+      <Footer />
+      
 
       </div>
     );

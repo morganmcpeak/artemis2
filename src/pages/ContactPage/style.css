@@ -1,2 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed");
 .contact-page {
-  min-height: 100vh; }
+  margin: 0 10%;
+  min-height: 100vh;
+  padding-top: 140px;
+  padding-bottom: 60px;
+  font-family: "Questrial", sans-serif;
+  font-weight: lighter; }
+  .contact-page h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #48186c;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #48186c; }
+  .contact-page .quote {
+    font-family: "Roboto Condensed";
+    color: #48186c;
+    font-size: 20px;
+    margin-top: -10px; }
+  .contact-page .ernest {
+    font-style: italic;
+    margin-top: -15px;
+    color: #48186c; }
+  .contact-page form {
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: repeat 6, 1fr;
+    grid-gap: 0px;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px; }
+  .contact-page .email {
+    grid-row: 1;
+    grid-column: 1/ span 1; }
+  .contact-page .company {
+    grid-row: 1;
+    grid-column: 2/ span 1; }
+  .contact-page .title {
+    grid-row: 1;
+    grid-column: 3/ span 1; }
+  .contact-page .firstname {
+    grid-row: 2;
+    grid-column: 1/span 1; }
+  .contact-page .lastname {
+    grid-row: 2;
+    grid-column: 2/ span 1; }
+  .contact-page .address {
+    grid-row: 2;
+    grid-column: 3/ span 1; }
+  .contact-page .city {
+    grid-row: 3;
+    grid-column: 1/ span 1; }
+  .contact-page .state {
+    grid-row: 3;
+    grid-column: 2/ span 1; }
+  .contact-page .zip {
+    grid-row: 3;
+    grid-column: 3/ span 1; }
+  .contact-page .phone {
+    grid-row: 4;
+    grid-column: 1/ span 1; }
+  .contact-page .industry {
+    grid-row: 4;
+    grid-column: 2/ span 2;
+    width: 355px; }
+  .contact-page .comments {
+    grid-row: 5;
+    grid-column: 1/ span 3; }
+  .contact-page .submit {
+    grid-row: 6;
+    grid-column: 2; }
+  .contact-page input {
+    padding: 15px;
+    margin: 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: "questrial", sans-serif;
+    font-size: 14px;
+    width: 150px;
+    height: 20px;
+    background-color: rgba(72, 24, 108, 0.4); }
+  .contact-page select {
+    height: 50px;
+    width: 180px;
+    margin-left: -25px;
+    background-color: rgba(72, 24, 108, 0.4);
+    font-family: "questrial", sans-serif; }
+  .contact-page .submit {
+    background-color: rgba(72, 24, 108, 0.4);
+    height: 40px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: -5px; }
+  .contact-page .comments {
+    margin: 0 auto;
+    width: 120px;
+    height: 70px;
+    width: 500px; }
+
+@media screen and (max-width: 450px) {
+  .contact-page {
+    padding-top: 180px;
+    min-height: 130vh; }
+    .contact-page h1 {
+      font-size: 30px; }
+    .contact-page input {
+      width: 100px;
+      margin: 10px; }
+    .contact-page form {
+      width: 330px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0 auto; }
+    .contact-page .industry {
+      width: 250px; }
+    .contact-page select {
+      width: 130px;
+      margin-left: 10px;
+      margin-top: 10px; }
+    .contact-page .submit {
+      margin: 0 auto;
+      margin-top: 10px; }
+    .contact-page .comments {
+      background-color: rgba(72, 24, 108, 0.4);
+      width: 280px;
+      border: none;
+      margin-left: 10px; } }
