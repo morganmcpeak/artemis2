@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import Nav from '../../components/Nav';
-
+// test commit
 const ContactPage = () => {
     return (
         <div className="contact-page">
