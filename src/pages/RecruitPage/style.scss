@@ -45,22 +45,27 @@
         width: 100%;
         height: auto;
     }
-    .joblink1 {
-        font-family: "questrial", sans-serif;
-        margin-right: 5px;
-        margin-left: 5px;
-        color: rgb(72,24,108);
-        font-size: 18px;
-        border-right: 2px solid gray;
-        padding-right: 15px;
+    .joblinks {
+        display: flex;
+        justify-content: center;
+        .joblink1 {
+            font-family: "questrial", sans-serif;
+            margin-right: 5px;
+            margin-left: 5px;
+            color: rgb(72,24,108);
+            font-size: 18px;
+            border-right: 2px solid gray;
+            padding-right: 15px;
+        }
+        .joblink {
+            font-family: "questrial", sans-serif;
+            margin-right: 10px;
+            margin-left: 10px;
+            color: rgb(72,24,108);
+            font-size: 18px;
+        }
     }
-    .joblink {
-        font-family: "questrial", sans-serif;
-        margin-right: 10px;
-        margin-left: 10px;
-        color: rgb(72,24,108);
-        font-size: 18px;
-    }
+    
     @import url('https://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed');
 
 }

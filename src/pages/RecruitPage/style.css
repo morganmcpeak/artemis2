@@ -36,20 +36,23 @@
   .recruit-page .mainpic {
     width: 100%;
     height: auto; }
-  .recruit-page .joblink1 {
-    font-family: "questrial", sans-serif;
-    margin-right: 5px;
-    margin-left: 5px;
-    color: #48186c;
-    font-size: 18px;
-    border-right: 2px solid gray;
-    padding-right: 15px; }
-  .recruit-page .joblink {
-    font-family: "questrial", sans-serif;
-    margin-right: 10px;
-    margin-left: 10px;
-    color: #48186c;
-    font-size: 18px; }
+  .recruit-page .joblinks {
+    display: flex;
+    justify-content: center; }
+    .recruit-page .joblinks .joblink1 {
+      font-family: "questrial", sans-serif;
+      margin-right: 5px;
+      margin-left: 5px;
+      color: #48186c;
+      font-size: 18px;
+      border-right: 2px solid gray;
+      padding-right: 15px; }
+    .recruit-page .joblinks .joblink {
+      font-family: "questrial", sans-serif;
+      margin-right: 10px;
+      margin-left: 10px;
+      color: #48186c;
+      font-size: 18px; }
 
 @media screen and (max-width: 450px) {
   .recruit-page {

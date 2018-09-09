@@ -318,6 +318,7 @@ class RecruitPage extends Component {
           get to work!
         </p>
         <h5>Executive Search</h5>
+        <div className="joblinks">
         <div
           className="joblink1"
           onClick={() => this.scrollToPage(".hire-vet-page")}
@@ -330,6 +331,7 @@ class RecruitPage extends Component {
           onClick={() => this.scrollToPage(".insource-page")}
         >
           Recruitment Process In-sourcing
+        </div>
         </div>
       </div>
     );
