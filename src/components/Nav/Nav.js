@@ -78,7 +78,7 @@ class Nav extends Component {
                     className="recruit"
                     onClick={(e) => this.scrollToPage('.recruit-page')}
                     >
-                    Recruitment Solutions
+                    Recruiting Solutions
                     </div>
 
                     

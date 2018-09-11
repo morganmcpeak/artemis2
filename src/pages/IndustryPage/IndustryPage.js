@@ -59,7 +59,7 @@ const IndustryPage = () => {
                 With decades of direct experience with manufacturers of architecturally/specified interior
                 products (CSI: 08, 09, 10, 12) and materials (CSI: 03, 04, 05, 06) product classifications. We
                 have worked with commercial and residential product manufacturers as well as the two-step
-                distributors of materials, consumables, hardware and MRO products. If one of your tradesman
+                distributors of materials, consumables, hardware and MRO products. If your tradesman
                 need it or if your architect or designer has specified it, we have most likely worked with the
                 manufacturer. We can help!</p>
                 <a href="#tiptop" className="top">top</a>
