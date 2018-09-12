@@ -36,7 +36,7 @@ p {
 }
 @media screen and (max-width: 450px){
     .index-page {
-        padding-top: 200px;
+        padding-top: 175px;
 
         body {
             margin-left: 0px;
@@ -54,15 +54,15 @@ p {
             font-size: 35px;
         }
         p{
-            font-size: 15px;
+            font-size: 17px;
             margin-top: -20px;
         }
         .homelogo {
             display: block;
-            width: 185px;
+            width: 200px;
             height: auto;
             margin: 0 auto;
-            margin-top: -65px;
+            margin-top: -85px;
         }
     }
     @import url('https://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed');

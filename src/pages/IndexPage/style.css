@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 450px) {
   .index-page {
-    padding-top: 200px; }
+    padding-top: 175px; }
     .index-page body {
       margin-left: 0px;
       width: 110%;
@@ -45,11 +45,11 @@
     .index-page h1 {
       font-size: 35px; }
     .index-page p {
-      font-size: 15px;
+      font-size: 17px;
       margin-top: -20px; }
     .index-page .homelogo {
       display: block;
-      width: 185px;
+      width: 200px;
       height: auto;
       margin: 0 auto;
-      margin-top: -65px; } }
+      margin-top: -85px; } }

@@ -12,7 +12,8 @@ import "./style.css";
     return (
       <div className="recruit-page">
         <h1>Recruiting Solutions</h1>
-        <h5>"Don't expect tactics to solve a strategic problem."</h5>
+        <h5>Executive Search</h5>
+        <h3>"Don't expect tactics to solve a strategic problem."</h3>
         <p className="paragraph">
           This mantra drives our day to day activity on behalf of our clients.
           Artemis Search Group continues to deliver on critical personnel needs
@@ -318,8 +319,8 @@ import "./style.css";
           your organization. Let us show you how! We won’t let you down. Let’s
           get to work!
         </p>
-        <h1>Executive Search</h1>
-        <h5>Recruitment Process In-sourcing</h5>
+    
+        <h1>Recruitment Process In-sourcing</h1>
         <h3>Recapture and Revitalize your Talent Brand with our RPI Offering</h3>
         <p>The trend toward recruitment process outsourcing (RPO) has
         succeeded in masking truth of the talent acquisition processes
@@ -360,7 +361,7 @@ import "./style.css";
         <h4>Interested in taking control of your talent brand? Interested in hearing more about recruitment process insourcing? (RPI)
 We can help! Call Artemis Search Group today! <br/>(248)499-8001</h4>
 
-         <h5>Hire A Veteran</h5>
+         <h1>Hire A Veteran</h1>
         <p>Artemis Search Group, Inc is passionate about helping our transitioning service men and women. We are committed to bringing our clients and our heroes together to continue the mission - keeping Americans safe by keeping the American economy strong. Ask us about hiring a transitioning service member or industry experienced service member. 100% of clients hiring a former uniformed service member from Artemis Search Group, hired another within 1 year.</p>
         <img src="assets/images/aerospace.jpg" className="vetpic"></img>
         </div>
